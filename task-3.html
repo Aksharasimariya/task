@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        width:  fit-content;
+        margin: 50px auto;
+    }
+    #submit {
+        display: block;
+        margin: 0 auto;
+    }       
+</style>
+</head>
+<body>
+    <form action="" id="candidate">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">First Name: </label>
+            <input
+            type="text"
+            name=""
+            id="name"
+            class="some"
+            placeholder=""
+            required
+            minlength="3"
+            maxlength="20"
+            />
+            <br/>
+            <legend>Personal Details</legend>
+            <label for="name">Last Name: </label>
+            <input
+            type="text"
+            name=""
+            id="name"
+            class="some"
+            placeholder=""
+            required
+            minlength="3"
+            maxlength="20"
+            />
+            <br/>
+            Gender :
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male"/>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female"/>
+            <br/>
+            <label for="email">Email:</label>
+            <input 
+            type="email" 
+            name="" 
+            id="email"
+            required
+            />
+            <br/>
+            <label for="dob">Date of Birth:</label>
+            <input type="date"
+            name=""
+            id="dob"
+            required
+            />
+            <br/>
+            <label for="add" form="candidate">Address:</label>
+            <br/>
+            <textarea 
+            name="" 
+            cols="25"
+            rows="5"
+            id="add"
+            placeholder="Write your address here">
+        </textarea>
+        <input type="submit" name="" id="submit"/>
+
+            
+        </fieldset>
+    </form>
+</body>
+</html>
