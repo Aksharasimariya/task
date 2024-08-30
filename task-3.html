@@ -17,22 +17,30 @@
 </style>
 </head>
 <body>
-    <form action="" id="candidate">
-        <fieldset>
-            <legend>Personal Details</legend>
-            <label for="name">First Name: </label>
-            <input
-            type="text"
-            name=""
-            id="name"
-            class="some"
-            placeholder=""
-            required
-            minlength="3"
-            maxlength="20"
-            />
-            <br/>
-            <legend>Personal Details</legend>
+    <fieldset>
+    <legend> Personal Information</legend>
+            <lable for ="sal"> Salutaion : </lable>
+            <select name="" id="sal">
+            <datalist id="sal"></datalist>
+              <option value="Ms.">Ms.</option>
+              <option value="Mr.">Mr.</option>
+              <option value="Mrs.">Mrs.</option>
+              </select>
+           
+              <br/>
+    
+        <label for="Fn">First name:</label>
+        <input
+         type="text"
+         name=""
+         id="name"
+         class="some"
+         placeholder=""
+         required
+         minlength="3"
+         maxlength="20"
+       />
+    
             <label for="name">Last Name: </label>
             <input
             type="text"
