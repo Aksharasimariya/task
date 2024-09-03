@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   style>
+    form{
+        width: fit-content;
+        margin; 0; 10;10;10;
+    }
+    #submit
+    {
+        display: block;
+        margin: auto;
+    }
+    </style>
+</body>
+<h1>Application Form</h1>
+<form>
+    <label for="fname"><b>First nam:</b></label>
+        <input 
+        type="text"
+        name="fname"
+        id="fname"
+        class="some"
+        placeholder="Enter your name"
+        required
+        minlength="3"
+        maxlength="20"
+        >
+
+
+    <label for="lname"><b>Last name:</b></label>
+        <input
+        type="text"
+         name="lname"
+         id="lname"
+        class="some"
+        placeholder="Enter your name"
+        required
+        minlength="3"
+        maxlength="20"
+        >
+        <br/>
+        <br/>
+    <label for="dob"><b>Date of birth:</b></label>
+    <input 
+    type="date"
+    name="dob"
+    id="dob"
+    required
+    >
+
+    <label for="age"><b>Age:</b></label>
+    <input
+    type="number"
+    name="age"
+    id="age"
+    max="20"
+    min="35"
+    required
+    >
+    
+    <BR/>
+    <br/>
+    <label for="gen"><b>Gender</b></label>
+    <select
+    name="gen" id="gen" required>
+    <option value="M">Male</option>
+    <option value="F">Female</option>
+    </select>
+
+    <label for="eadd"><b>Email Address:</b></label>
+    <input 
+    type="email"
+    name="eadd"
+    id="eadd"
+    required
+    >
+    <br/>
+    <br/>
+     <b>Position Available: </b>
+     <input type="radio" name="Position Available" id="jd">
+    <label for="jd">Junior Developer</label>
+    <input type="radio" NAME="Mid-level Developer" id="md">
+    <lable for="md">Mid-level Developer</lable>
+    <input type="radio" name="Senior Developer" id="sd">
+    <label for="sd">Senior Developer</label>
+     
+    <br/>
+    <br/>
+
+    <b>Programming Languages:</b>
+    <input type="checkbox" name="java" id="java">
+    <lable for="java">Java</lable>
+    <input type="checkbox" name="js" id="js">
+    <label for="js">JavaScript</label>
+    <input type="checkbox" name="python" id="python">
+    <label for="python">Python</label>
+    
+    <br/>
+    <br/>
+    <label for="password"><b>Password:</b></label>
+    <input type="password" name="password" id="password" required>
+
+    <label for="cpassword">Confirm Password:</label>
+    <input type="cpassword" name="cpassword" id="cpassword" required>
+     
+    <br/>
+    <br/>
+    <input type="submit" name="" id="submit"></input>
+    <input type="reset"  name="" id="reset"></input>
+
+
+
+</form>
+
+</html>
